@@ -37,19 +37,23 @@ body {
     text-decoration: none;
 }
 
-a.main-header-menu-link {
-    color: var(--iris, #4D5AE5);
+li {
+    list-style: none;
+}
+
+.main-header-menu {
+    color: var(--navy-blue, #2E2F42);
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.32px;
+    text-decoration-line: none;
 }
 
-.main-header-menu-item {
-    text-align: start;
-    list-style: none;
+.main-header-ctas {
+    
 }
 
 h1 {
@@ -72,9 +76,11 @@ h1 {
     line-height: 24px;
     letter-spacing: 0.64px;
     background-color: var(--iris, #4D5AE5);
+    border-radius: 4px;
+    box-shadow: 0px  4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
-div {
+section {
     background-color: var(--navy-blue, #2E2F42);
 }
 
@@ -85,6 +91,8 @@ div {
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
+    list-style: none;
+    text-align: left;
 }    
 
 .solution-description {
@@ -95,4 +103,16 @@ div {
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32;
+}
+
+h2 {
+    color: var(--navy-blue, #2E2F42);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
 }
