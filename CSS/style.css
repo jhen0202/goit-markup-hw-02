@@ -76,3 +76,13 @@ section {
     background-color: var(--navy-blue, #2E2F42);
 }
 
+.solution-title {
+    color: var(--navy-blue, #2E2F42);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    list-style: none;
+}
