@@ -74,7 +74,7 @@ h1 {
     background-color: var(--iris, #4D5AE5);
 }
 
-section {
+div {
     background-color: var(--navy-blue, #2E2F42);
 }
 
