@@ -1,0 +1,75 @@
+:root {
+    --primary-text-color: #2E2F42;
+    --primary-iris-color: #4D5AE5;
+    --primary-white-color: #FFF;
+    --primary-cloud-color: #F4F4FD;
+    --secondary-text-color: #434455;
+    --primary-background-color: #2E2F42;
+}
+
+body {
+    font-family: Roboto, Raleway;
+}
+
+.logo span {
+    color: var(--iris, #4D5AE5);
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    width: 44px;
+    text-decoration: none;
+}
+
+.logo {
+    color: var(--navy-blue, #2E2F42);
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    width: 71px;
+    text-decoration: none;
+}
+
+a.main-header-menu-link {
+    color: var(--iris, #4D5AE5);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    text-decoration: none;
+    text-align: left;
+    list-style: none;
+}
+
+section.h1 {
+    color: var(--white, #FFF);
+    text-align: center;
+    
+    /*Header 1 */
+    font-family: Roboto;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 107.143% */
+    letter-spacing: 1.12px;
+    background-color: #2E2F42;
+}
+
+section.button {
+    color: var(--white, #FFF);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+}
