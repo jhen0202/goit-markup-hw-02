@@ -39,7 +39,6 @@ body {
 
 li {
     list-style: none;
-    text-decoration: none;
 }
 
 .main-header-menu {
@@ -52,14 +51,12 @@ li {
 }
 
 .main-header-ctas-item {
-    color: var(--slate, #434455);
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;   
-    text-decoration: none; 
 }
 
 h1 {
@@ -154,15 +151,4 @@ footer {
     line-height: 24px;
     letter-spacing: 0.32px;
     background-color: var(--navy-blue,#2E2F42);
-}
-
-footer.a.logo {
-    color: var(--cloud, #F4F4FD);
-    font-family: Raleway;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 21px;
-    letter-spacing: 0.54;
-    text-transform: uppercase;
 }
