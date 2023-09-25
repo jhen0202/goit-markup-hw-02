@@ -43,7 +43,6 @@ li {
 }
 
 .main-header-menu {
-    color: var(--navy-blue, #2E2F42);
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
