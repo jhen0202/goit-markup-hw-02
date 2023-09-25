@@ -1,18 +1,17 @@
 :root {
-    --primary-text-color: #2E2F42;
-    --primary-iris-color: #4D5AE5;
-    --primary-white-color: #FFF;
-    --primary-cloud-color: #F4F4FD;
-    --secondary-text-color: #434455;
-    --primary-background-color: #2E2F42;
+   color: var(--NAVY-BLUE,#2E2F42);
+   color: var(--IRIS,#4D5AE5);
+   color: var(--WHITE,#FFF);
+   color: var(--CLOUD,#F4F4FD);
+   color: var(--SLATE,#434455);
 }
 
 body {
-    font-family: Roboto, Raleway;
+    font-family: Roboto;
 }
 
 .logo span {
-    color: var(--iris, #4D5AE5);
+    color: var(--IRIS,#4D5AE5);
     font-family: Raleway;
     font-size: 18px;
     font-style: normal;
@@ -25,7 +24,7 @@ body {
 }
 
 .logo {
-    color: var(--navy-blue, #2E2F42);
+    color: var(--NAVY-BLUE,#2E2F42);
     font-family: Raleway;
     font-size: 18px;
     font-style: normal;
@@ -37,7 +36,9 @@ body {
     text-decoration: none;
 }
 
-li {
+ul {
+    padding: 0%;
+    margin: 0%;
     list-style: none;
 }
 
@@ -48,8 +49,6 @@ li {
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.32px;
-    padding: 0%;
-    margin-top: 0%;
 }
 
 .main-header-ctas-item {
@@ -59,12 +58,11 @@ li {
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;  
-    padding: 0%; 
     margin-top: 0%;
 }
 
 h1 {
-    color: var(--white, #FFF);
+    color: var(--WHITE,#FFF);
     text-align: center;
     font-family: Roboto;
     font-size: 56px;
@@ -75,24 +73,29 @@ h1 {
 }
 
 .button {
-    color: var(--white, #FFF);
+    color: var(--WHITE,#FFF);
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.64px;
-    background-color: var(--iris, #4D5AE5);
+    cursor: pointer;
     border-radius: 4px;
-    box-shadow: 0px  4px 4px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    background-color: var(--IRIS,#4D5AE5);
+}    
+    
+.button:hover {
+    color: var(--IRIS,#4D5AE5);
 }
 
 section {
-    background-color: var(--navy-blue, #2E2F42);
+    background-color: var(--NAVY-BLUE,#2E2F42);
 }
 
 .solution-title {
-    color: var(--navy-blue, #2E2F42);
+    color: var(--NAVY-BLUE,#2E2F42);
     font-family: Roboto;
     font-size: 20px;
     font-style: normal;
@@ -100,12 +103,10 @@ section {
     line-height: 24px;
     list-style: none;
     text-align: left;
-    padding: 0%;
-    margin-top: 0%;
 }    
 
 .solution-description {
-    color: var(--slate, #434455);
+    color: var(--SLATE,#434455);
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
@@ -115,7 +116,7 @@ section {
 }
 
 h2 {
-    color: var(--navy-blue, #2E2F42);
+    color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
     font-family: Roboto;
     font-size: 36px;
@@ -127,7 +128,7 @@ h2 {
 }
 
 .team-member-name {
-    color: var(--navy-blue, #2E2F42);
+    color: var(--NAVY-BLUE, #2E2F42);
     text-align: left;
     font-family: Roboto;
     font-size: 20px;
@@ -138,7 +139,7 @@ h2 {
 }
 
 .team-member-designation {
-    color: var(--slate, #434455);
+    color: var(--SLATE,#434455);
     text-align: left;
     font-family: Roboto;
     font-size: 16px;
@@ -149,12 +150,12 @@ h2 {
 }
 
 footer {
-    color: var(--cloud, #F4F4FD);
+    color: var(--CLOUD,#F4F4FD);
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
-    background-color: var(--navy-blue,#2E2F42);
+    background-color: var(--NAVY-BLUE,#2E2F42);
 }
