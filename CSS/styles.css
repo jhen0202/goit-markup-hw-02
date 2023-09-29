@@ -42,7 +42,7 @@ ul {
     list-style: none;
 }
 
-.main-header-menu-item {
+.main-header-menu-link {
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
@@ -52,7 +52,7 @@ ul {
     color: rgb(1, 1, 56);
 }
 
-.main-header-menu-item:hover {
+.main-header-menu-link:hover {
     color:blue;
 }
 
