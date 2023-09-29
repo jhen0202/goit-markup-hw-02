@@ -51,12 +51,12 @@ ul {
     letter-spacing: 0.32px;
 }
 
-.option {
+.main-header-menu-item {
     color: rgb(1, 1, 56);
 }
 
-.option:hover {
-    color:blue
+.main-header-menu-item:hover {
+    color:blue;
 }
 
 .main-header-ctas-item {
